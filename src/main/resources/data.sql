@@ -1,0 +1,30 @@
+-- Data Demo
+INSERT INTO posicions(posicion) VALUES('Portero');
+INSERT INTO posicions(posicion) VALUES('Delantero');
+INSERT INTO posicions(posicion) VALUES('Defensa');
+INSERT INTO posicions(posicion) VALUES('Mediocampista');
+INSERT INTO posicions(posicion) VALUES('Lateral Izquierdo');
+INSERT INTO posicions(posicion) VALUES('Lateral Derecho');
+INSERT INTO posicions(posicion) VALUES('Central');
+INSERT INTO posicions(posicion) VALUES('Volante');
+
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Mohammed', 'Hakking', '1990-04-23', 'habilidad en el regate', 1);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Vincenty', 'Chorlton', '1980-03-07', 'velocidad y resistencia', 3);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Noby', 'Thornley', '1983-07-26', 'pase preciso', 2);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Dennis', 'Hanway', '1976-08-13', 'juego aéreo', 7);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Saunders', 'Balam', '1994-08-15', 'disparo potente', 8);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Errick', 'Larmouth', '1972-02-12', 'habilidad táctica', 6);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Gerardo', 'Anstie', '1986-08-25', 'visión de juego', 2);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Tuckie', 'Reding', '1974-03-18', 'liderazgo en el campo', 6);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Steffen', 'Sinderland', '1999-12-04', 'habilidad en el uno contra uno', 6);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Seamus', 'Oehm', '1993-10-16', 'creatividad en el ataque', 1);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Zebulen', 'Simak', '1995-11-15', 'intercepción defensiva', 5);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Jeth', 'McGirl', '1993-08-15', 'resistencia física', 8);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Yorke', 'Boome', '1990-12-21', 'precisión en el centro', 3);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Lydon', 'Cadore', '1987-11-27', 'inteligencia táctica', 2);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Ware', 'Doig', '2002-07-04', 'habilidad en el dribbling', 6);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Stanislaw', 'Cooksey', '1970-10-29', 'anticipación defensiva', 8);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Barde', 'Hector', '1983-07-21', 'resistencia física', 7);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Corrie', 'Skells', '1984-12-12', 'potencia en el remate', 8);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Reilly', 'Mushet', '1994-08-17', 'inteligencia táctica', 7);
+INSERT INTO futbolistas(nombres, apellidos, fecha_nacimiento, caracteristicas, posicion_id) VALUES('Waylan', 'Morcom', '1989-03-11', 'habilidad en el desmarque', 7);

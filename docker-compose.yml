@@ -1,0 +1,15 @@
+version: "3"
+services:
+  mysqldb:
+    container_name: "mysqldb"
+    image: "mysql:8.0"
+    ports:
+      - "3308:3306"
+    volumes:
+      - ./mysql-data-v1:/var/lib/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: "root"
+      MYSQL_DATABASE: "futbol"
+
+volumes:
+  mysql-data-v1:
