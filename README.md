@@ -18,7 +18,9 @@ Si se desea cambiar este comportamiento colocar **spring.jpa.hibernate.ddl-auto*
 
 # Iniciar
 
-Ejecutar ``mvn spring-boot:run``
+Ejecutar (después de esperar que docker compose up -d termine y se pueda realizar la conexión) ``mvn spring-boot:run``
+
+Swagger: http://localhost:8080/swagger-ui/index.html
 
 
 
